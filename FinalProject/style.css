@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Meow+Script&display=swap");
+
+@media (max-width: 800px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        background-image: url(imgonline-com-ua-Blur-w80DzalavxJ.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    body {
+        font-family: "Meow Script", cursive;
+        margin: 0;
+        padding: 20px;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .quest {
+        display: none;
+    }
+    .quest.actived {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        background: url(/1618824421_10-phonoteka_org-p-besshovnii-fon-zima-13.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        z-index: 2;
+    }
+    .quest.actived img {
+        width: 90vw;
+        z-index: 10000000;
+    }
+
+    .dec1 {
+        display: none;
+    }
+    .dec2 {
+        display: none;
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        color: rgb(255, 0, 0);
+    }
+    .map {
+        margin-left: 7%;
+        border-radius: 9px;
+        border: 3px solid green;
+        z-index: -1;
+    }
+
+    .main {
+        flex-direction: column;
+        display: flex;
+        flex: auto;
+        width: 400px;
+        height: 400px;
+        z-index: -1;
+        
+    }
+
+    .btn {
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .exit {
+        position: relative;
+        right: -42%;
+        top: 10px;
+        z-index: 1000;
+        cursor: pointer;
+    }
+
+
+
+    .link {
+        position: relative;
+        display: block;
+        width: 300px;
+        height: 20px;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: sans-serif;
+        color: white;
+        background-color: rgb(38, 135, 214);
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;
+        left: 15%;
+        top: -6%;
+    }
+
+    .btn1 {
+        top: -42%;
+        left: 79%;
+        width: 5%;
+    }
+    .btn2 {
+        top: -22%;
+        left: 48%;
+        width: 6%;
+    }
+    .btn3 {
+        top: -53%;
+        left: 48%;
+        width: 4%;
+    }
+    .btn4 {
+        top: -50%;
+        left: 52%;
+        width: 4%;
+    }
+    .btn5 {
+        top: -47%;
+        left: 50%; 
+        width: 5%;
+    }
+    
+    
+    .btn6 {
+        width: 4.5%;
+        top: -64%;
+        left: 49%;
+    }
+
+    .btn7 {
+        width: 5%;
+        top: -70%;
+        left: 43%;
+    }
+    
+    .btn8 {
+        width: 6%;
+        top: -64%;
+        left: 44%;
+    }
+}
+@media (min-width: 800px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        background-image: url(imgonline-com-ua-Blur-w80DzalavxJ.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    body {
+        font-family: "Meow Script", cursive;
+        margin: 0;
+        padding: 20px;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+        font-size: 60px;
+        transform: translateY(-30px);
+        color: rgb(255, 0, 0);
+    }
+
+    .main {
+        background-color: rgba(255, 255, 255, 0.699);
+        height: 1000px;
+        width: 1600px;
+        flex: auto;
+        border-radius: 13px;
+        border: 6px solid green;
+        transform: translateY(20px);
+    }
+
+    .map {
+        position: absolute;
+        border-radius: 9px;
+        border: 6px solid green;
+        transform: translateY(-50px);
+        left: 7.5%;
+    }
+
+    .dec1 {
+        position: relative;
+        left: -130px;
+        top: -54px;
+        z-index: 1000;
+        float: right;
+    }
+
+    .dec2 {
+        position: relative;
+        left: 130px;
+        top: -60px;
+        z-index: 1000;
+        float: left;
+    }
+
+    p {
+        transform: translateY(10px);
+    }
+
+    .btn {
+        position: fixed;
+        z-index: 3;
+        cursor: pointer;
+    }
+
+    .btn:active {
+        width: 5%;
+    }
+    .btn1 {
+        top: 16%;
+        left: 83%;
+    }
+    .btn2 {
+        top: 57%;
+        left: 49%;
+    }
+    .btn3 {
+        position: relative;
+        top: 0%;
+        left: 1%;
+        width: 2.5%;
+    }
+    .btn4 {
+        top: 23%;
+        left: 53%;
+        width: 2.5%;
+    }
+    .btn5 {
+        top: 37%;
+        left: 50%;
+        width: 3.5%;
+    }
+    .btn3:active {
+        position: relative;
+        top: 0%;
+        left: 1%;
+        width: 3.5%;
+    }
+    .btn4:active {
+        top: 23%;
+        left: 53%;
+        width: 3.5%;
+    }
+    .btn5:active {
+        top: 37%;
+        left: 50%;
+        width: 4%;
+    }
+    .btn6 {
+        left: 50.5%;
+        top: 19.5%;
+        width: 3%;
+    }
+    .btn7 {
+        left: 45%;
+        top: 18%;
+        width: 3%;
+    }
+    .btn6:active {
+        left: 50.5%;
+        top: 19.5%;
+        width: 4%;
+    }
+    .btn7:active {
+        left: 45%;
+        top: 18%;
+        width: 4%;
+    }
+    .btn8 {
+        left: 46%;
+        top: 38%;
+    }
+
+    .quest {
+        left: 0;
+        top: 0;
+        z-index: 1;
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        background: url(/1618824421_10-phonoteka_org-p-besshovnii-fon-zima-13.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: translateY(2000vh);
+        transition: 0.4s ease-in-out;
+        flex: auto;
+    }
+
+    .quest.actived {
+        transform: translateY(0);
+        transition: 0.4s ease-in-out;
+    }
+
+    .exit {
+        position: relative;
+        right: -45%;
+        top: 10px;
+        z-index: 1000;
+        cursor: pointer;
+    }
+
+    .exit8 {
+        position: absolute;
+        right: -45%;
+        top: 10px;
+        z-index: 1000;
+    }
+
+    .task8 {
+        top: 30%;
+    }
+
+    .link {
+        position: relative;
+        display: block;
+        width: 350px;
+        height: 20px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: sans-serif;
+        color: white;
+        background-color: rgb(38, 135, 214);
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;
+        left: 41.5%;
+        top: -5%;
+    }
+}
